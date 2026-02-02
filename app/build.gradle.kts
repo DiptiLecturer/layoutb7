@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+
+    buildFeatures{
+        viewBinding =true
+    }
     namespace = "org.freedu.layoutb7"
     compileSdk {
         version = release(36)
