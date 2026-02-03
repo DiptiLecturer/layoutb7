@@ -16,9 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.beginBtn.setOnClickListener {
-
             Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
-            //startActivity(Intent(this@MainActivity, WelcomeScreen::class.java))
+            startActivity(Intent(this@MainActivity, WelcomeScreen::class.java))
         }
 
     }
